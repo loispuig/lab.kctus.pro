@@ -2,3 +2,4 @@ baseurl = "http://loispuig.github.io/lab.kctus.pro"
 languageCode = "en-us"
 title = "My New Hugo Site"
 canonifyurls = true
+theme = "casper"
