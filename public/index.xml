@@ -41,7 +41,7 @@
 &lt;p&gt;Puis aller sur ISPConfig en tant qu&amp;rsquo;admin &amp;gt; Système &amp;gt; Configuration Serveur &amp;gt; Cliquez sur votre serveur.
 Dans l&amp;rsquo;onglet &amp;ldquo;Jailkit&amp;rdquo;, ajoutez &amp;ldquo;jekyll&amp;rdquo; à la fin du champ &amp;ldquo;Sections des applications chrootées Jailkit&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;{{ site.url}}/assets/img/posts/ispconfig-jekyll.png&#34; alt=&#34;Add Jekyll to ISPConfig Jailkit config&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://loispuig.github.io/lab.kctus.pro/img/post/ispconfig-jekyll.png&#34; alt=&#34;Add Jekyll to ISPConfig Jailkit config&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Vous pouvez maintenant créer un autilisateur ssh chrooté via ISPConfig.&lt;/p&gt;
 
