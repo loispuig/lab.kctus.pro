@@ -1,5 +1,5 @@
 baseurl = "http://lab.kctus.pro/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "fr-FR"
+title = "kctus|lab"
 canonifyurls = true
 theme = "casper"
