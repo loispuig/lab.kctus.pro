@@ -9,6 +9,7 @@ menu = ""
 +++
 
 Faire fonctionner [Jekyll](http://jekyllrb.com/) dans un environnement chrooté, avec ISPConfig + Jailkit sur une Debian Wheezy.
+<!--more-->
 
 ### Installation de Ruby via RVM
 En tant qu'utilisateur root :

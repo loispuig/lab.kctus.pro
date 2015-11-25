@@ -6,6 +6,7 @@ title = "osx shell"
 +++
 
 Quelques commandes shell utiles sur Mac OS X.
+<!--more-->
 
 ### Recherche dans la liste des processus en cours
 

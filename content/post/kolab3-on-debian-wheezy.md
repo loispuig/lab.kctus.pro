@@ -5,7 +5,8 @@ title = "kolab3 on debian wheezy"
 
 +++
 
-Dans ma quête pour me défaire de Google Apps & Co. je cherche désespérement une nouvelle plateforme de travail collaboratif, stable et compatible avec les standards WebDav, WebCal et WebCard. Pas si facile à trouver !
+Dans ma quête pour me défaire de Google Apps & Co. je cherche une nouvelle plateforme de travail collaboratif, stable et compatible avec les standards WebDav, WebCal et WebCard. Pas si facile à trouver !
+<!--more-->
 
 Au menu d'aujourd'hui, l'installation de [Kolab 3.1](http://kolab.org) sur une Debian wheezy minimal toute neuve.
 
