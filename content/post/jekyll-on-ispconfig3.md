@@ -8,7 +8,7 @@ share = true        # set false to share buttons
 menu = ""
 +++
 
-Faire fonctionner [Jekyll](http://jekyllrb.com/) dans un environement chrooté, avec ISPConfig + Jailkit sur une Debian Wheezy.
+Faire fonctionner [Jekyll](http://jekyllrb.com/) dans un environnement chrooté, avec ISPConfig + Jailkit sur une Debian Wheezy.
 
 ### Installation de Ruby via RVM
 En tant qu'utilisateur root :
