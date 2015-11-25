@@ -1,48 +1,48 @@
-[submodule "hyde"]
+[submodule "themes/hyde"]
 	path = themes/hyde
-	url = https://github.com/spf13/hyde.git
-[submodule "lanyon"]
+	url = git@github.com:spf13/hyde.git
+[submodule "themes/lanyon"]
 	path = themes/lanyon
-	url = https://github.com/tummychow/lanyon-hugo.git
-[submodule "hyde-x"]
+	url = git@github.com:tummychow/lanyon-hugo.git
+[submodule "themes/hyde-x"]
 	path = themes/hyde-x
-	url = https://github.com/zyro/hyde-x.git
-[submodule "purehugo"]
+	url = git@github.com:zyro/hyde-x.git
+[submodule "themes/purehugo"]
 	path = themes/purehugo
-	url = https://github.com/dplesca/purehugo.git
-[submodule "hugo-uno"]
+	url = git@github.com:dplesca/purehugo.git
+[submodule "themes/hugo-uno"]
 	path = themes/hugo-uno
-	url = https://github.com/SenjinDarashiva/hugo-uno.git
-[submodule "hugoscroll"]
+	url = git@github.com:SenjinDarashiva/hugo-uno.git
+[submodule "themes/hugoscroll"]
 	path = themes/hugoscroll
-	url = https://github.com/SenjinDarashiva/hugoscroll.git
-[submodule "hugo-theme-casper"]
+	url = git@github.com:SenjinDarashiva/hugoscroll.git
+[submodule "themes/casper"]
 	path = themes/casper
-	url = https://github.com/vjeantet/hugo-theme-casper.git
-[submodule "angels-ladder"]
+	url = git@github.com:vjeantet/hugo-theme-casper.git
+[submodule "themes/angels-ladder"]
 	path = themes/angels-ladder
-	url = https://github.com/tanksuzuki/angels-ladder.git
-[submodule "crisp"]
+	url = git@github.com:tanksuzuki/angels-ladder.git
+[submodule "themes/crisp"]
 	path = themes/crisp
-	url = https://github.com/Zenithar/hugo-theme-crisp
-[submodule "creative"]
+	url = git@github.com:Zenithar/hugo-theme-crisp.git
+[submodule "themes/creative"]
 	path = themes/creative
-	url = https://github.com/digitalcraftsman/hugo-creative-theme.git
-[submodule "persona"]
+	url = git@github.com:digitalcraftsman/hugo-creative-theme.git
+[submodule "themes/persona"]
 	path = themes/persona
-	url = https://github.com/pcdummy/hugo-theme-persona.git
-[submodule "agency"]
+	url = git@github.com:pcdummy/hugo-theme-persona.git
+[submodule "themes/agency"]
 	path = themes/agency
-	url = https://github.com/digitalcraftsman/hugo-agency-theme.git
-[submodule "air"]
+	url = git@github.com:digitalcraftsman/hugo-agency-theme.git
+[submodule "themes/air"]
 	path = themes/air
-	url = https://github.com/syui/hugo-theme-air.git
-[submodule "hugo-h5bp"]
+	url = git@github.com:syui/hugo-theme-air.git
+[submodule "themes/hugo-h5bp"]
 	path = themes/hugo-h5bp
-	url = https://github.com/garvincasimir/hugo-h5bp-simple.git
-[submodule "detox"]
+	url = git@github.com:garvincasimir/hugo-h5bp-simple.git
+[submodule "themes/detox"]
 	path = themes/detox
-	url = https://github.com/allnightgrocery/hugo-theme-blueberry-detox.git
-[submodule "bootstrap"]
-	path = themes/bootstrap
-	url = https://github.com/mmrath/hugo-bootstrap.git
+	url = git@github.com:allnightgrocery/hugo-theme-blueberry-detox.git
+[submodule "themes/hugo-bootstrap"]
+	path = themes/hugo-bootstrap
+	url = git@github.com:mmrath/hugo-bootstrap.git
