@@ -112,20 +112,20 @@
 
 <p>Faire fonctionner <a href="http://jekyllrb.com/">Jekyll</a> dans un environement chrooté, avec ISPConfig + Jailkit sur une Debian Wheezy.</p>
 
-<h1 id="installation-de-ruby-via-rvm:8c86c9a64de66339427d9086f4e2ad32">Installation de Ruby via RVM</h1>
+<h3 id="installation-de-ruby-via-rvm:8c86c9a64de66339427d9086f4e2ad32">Installation de Ruby via RVM</h3>
 
 <p>En tant qu&rsquo;utilisateur root :
 <script src="https://gist.github.com/7788411.js?file=install_rvm.sh"></script></p>
 
-<h1 id="installation-de-jekyll:8c86c9a64de66339427d9086f4e2ad32">Installation de Jekyll</h1>
+<h3 id="installation-de-jekyll:8c86c9a64de66339427d9086f4e2ad32">Installation de Jekyll</h3>
 
 <script src="https://gist.github.com/7788411.js?file=install_jekyll.sh"></script>
 
-<h1 id="installation-de-pygment-pour-la-coloration-syntaxique:8c86c9a64de66339427d9086f4e2ad32">Installation de Pygment (pour la coloration syntaxique)</h1>
+<h3 id="installation-de-pygment-pour-la-coloration-syntaxique:8c86c9a64de66339427d9086f4e2ad32">Installation de Pygment (pour la coloration syntaxique)</h3>
 
 <script src="https://gist.github.com/7788411.js?file=install_pygment.sh"></script>
 
-<h1 id="configuration-de-jailkit-pour-les-futurs-utilisateurs-ssh-chrootés:8c86c9a64de66339427d9086f4e2ad32">Configuration de Jailkit pour les futurs utilisateurs ssh chrootés</h1>
+<h3 id="configuration-de-jailkit-pour-les-futurs-utilisateurs-ssh-chrootés:8c86c9a64de66339427d9086f4e2ad32">Configuration de Jailkit pour les futurs utilisateurs ssh chrootés</h3>
 
 <script src="https://gist.github.com/7788411.js?file=edit_jk_init.sh"></script>
 
@@ -138,19 +138,19 @@ Dans l&rsquo;onglet &ldquo;Jailkit&rdquo;, ajoutez &ldquo;jekyll&rdquo; à la fi
 
 <p>Vous pouvez maintenant créer un autilisateur ssh chrooté via ISPConfig.</p>
 
-<h1 id="si-l-utilisateur-chrooté-est-déjà-créé:8c86c9a64de66339427d9086f4e2ad32">Si l&rsquo;utilisateur chrooté est déjà créé</h1>
+<h3 id="si-l-utilisateur-chrooté-est-déjà-créé:8c86c9a64de66339427d9086f4e2ad32">Si l&rsquo;utilisateur chrooté est déjà créé</h3>
 
 <p>Vous pouvez tout de même ajouter ce qu&rsquo;il faut à son environnement chrooté.</p>
 
 <script src="https://gist.github.com/7788411.js?file=jk_add_python_ruby.sh"></script>
 
-<h1 id="connectez-vous-avec-votre-utilisateur-chrooté:8c86c9a64de66339427d9086f4e2ad32">Connectez-vous avec votre utilisateur chrooté</h1>
+<h3 id="connectez-vous-avec-votre-utilisateur-chrooté:8c86c9a64de66339427d9086f4e2ad32">Connectez-vous avec votre utilisateur chrooté</h3>
 
-<h1 id="créez-un-dépôt-git:8c86c9a64de66339427d9086f4e2ad32">Créez un dépôt git</h1>
+<h3 id="créez-un-dépôt-git:8c86c9a64de66339427d9086f4e2ad32">Créez un dépôt git</h3>
 
 <script src="https://gist.github.com/7788411.js?file=git_create_repo.sh"></script>
 
-<h1 id="configurez-le-hook-post-receive:8c86c9a64de66339427d9086f4e2ad32">Configurez le hook post-receive</h1>
+<h3 id="configurez-le-hook-post-receive:8c86c9a64de66339427d9086f4e2ad32">Configurez le hook post-receive</h3>
 
 <script src="https://gist.github.com/7788411.js?file=git_create_post_receive_hook.sh"></script>
 <script src="https://gist.github.com/7788411.js?file=git_jekyll_post_receive_hook.sh"></script>
