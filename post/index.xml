@@ -2,67 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/lab.kctus.pro/post/</link>
+    <link>http://loispuig.github.io/lab.kctus.pro/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2015 15:10:43 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/lab.kctus.pro/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>kolab3 on debian wheezy</title>
-      <link>http://localhost:1313/lab.kctus.pro/post/kolab3-on-debian-wheezy/</link>
-      <pubDate>Tue, 24 Nov 2015 15:10:43 +0100</pubDate>
-      
-      <guid>http://localhost:1313/lab.kctus.pro/post/kolab3-on-debian-wheezy/</guid>
-      <description>&lt;p&gt;Dans ma quête pour me défaire de Google Apps &amp;amp; Co. je cherche désespérement une nouvelle plateforme de travail collaboratif, stable et compatible avec les standards WebDav, WebCal et WebCard. Pas si facile à trouver !&lt;/p&gt;
-
-&lt;p&gt;Au menu d&amp;rsquo;aujourd&amp;rsquo;hui, l&amp;rsquo;installation de &lt;a href=&#34;http://kolab.org&#34;&gt;Kolab 3.1&lt;/a&gt; sur une Debian wheezy minimal toute neuve.&lt;/p&gt;
-
-&lt;p&gt;###Pré-requis (OpenVZ)
-Si vous êtes sur une VM OpenVZ, n&amp;rsquo;oubliez pas d&amp;rsquo;activer les quotas sur celle-ci.
-Puis sur votre hôte virtualiseur :&lt;/p&gt;
-
-&lt;p&gt;101 étant l&amp;rsquo;id de votre VM&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/dae57e7b29c494363c38.js?file=debian7-kolab3-configure-vz.sh&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;###Installation&lt;/p&gt;
-
-&lt;p&gt;Lancez la commande suivante en tant que root :&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/dae57e7b29c494363c38.js?file=debian7-kolab3-start.Sh&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Qui téléchargera et exécutera le sript suivant :&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/dae57e7b29c494363c38.js?file=debian7-kolab3-setup.sh&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;###Sources
-* &lt;a href=&#34;http://blupgnup.com/installation-groupware-kolab/&#34;&gt;Blupgnup&amp;rsquo;s Tavern : Installation du Groupware Kolab&lt;/a&gt;
-* &lt;a href=&#34;http://docs.kolab.org/&#34;&gt;Official Kolab doc&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Tue, 24 Nov 2015 15:08:31 +0100</lastBuildDate>
+    <atom:link href="http://loispuig.github.io/lab.kctus.pro/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>jekyll on ispconfig3</title>
-      <link>http://localhost:1313/lab.kctus.pro/post/jekyll-on-ispconfig3/</link>
+      <link>http://loispuig.github.io/lab.kctus.pro/post/jekyll-on-ispconfig3/</link>
       <pubDate>Tue, 24 Nov 2015 15:08:31 +0100</pubDate>
       
-      <guid>http://localhost:1313/lab.kctus.pro/post/jekyll-on-ispconfig3/</guid>
-      <description>&lt;p&gt;Faire fonctionner &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; dans un environement chrooté, avec ISPConfig + Jailkit sur une Debian Wheezy.&lt;/p&gt;
+      <guid>http://loispuig.github.io/lab.kctus.pro/post/jekyll-on-ispconfig3/</guid>
+      <description>
 
-&lt;p&gt;###Installation de Ruby via RVM
-En tant qu&amp;rsquo;utilisateur root :
+&lt;p&gt;Faire fonctionner &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; dans un environement chrooté, avec ISPConfig + Jailkit sur une Debian Wheezy.&lt;/p&gt;
+
+&lt;h1 id=&#34;installation-de-ruby-via-rvm:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Installation de Ruby via RVM&lt;/h1&gt;
+
+&lt;p&gt;En tant qu&amp;rsquo;utilisateur root :
 &lt;script src=&#34;https://gist.github.com/7788411.js?file=install_rvm.sh&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;###Installation de Jekyll
-&lt;script src=&#34;https://gist.github.com/7788411.js?file=install_jekyll.sh&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;h1 id=&#34;installation-de-jekyll:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Installation de Jekyll&lt;/h1&gt;
 
-&lt;p&gt;###Installation de Pygment (pour la coloration syntaxique)
-&lt;script src=&#34;https://gist.github.com/7788411.js?file=install_pygment.sh&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=install_jekyll.sh&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;###Configuration de Jailkit pour les futurs utilisateurs ssh chrootés
-&lt;script src=&#34;https://gist.github.com/7788411.js?file=edit_jk_init.sh&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;h1 id=&#34;installation-de-pygment-pour-la-coloration-syntaxique:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Installation de Pygment (pour la coloration syntaxique)&lt;/h1&gt;
+
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=install_pygment.sh&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;configuration-de-jailkit-pour-les-futurs-utilisateurs-ssh-chrootés:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Configuration de Jailkit pour les futurs utilisateurs ssh chrootés&lt;/h1&gt;
+
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=edit_jk_init.sh&#34;&gt;&lt;/script&gt;
 
 &lt;script src=&#34;https://gist.github.com/7788411.js?file=jk_init.ini&#34;&gt;&lt;/script&gt;
 
@@ -73,56 +45,25 @@ Dans l&amp;rsquo;onglet &amp;ldquo;Jailkit&amp;rdquo;, ajoutez &amp;ldquo;jekyll
 
 &lt;p&gt;Vous pouvez maintenant créer un autilisateur ssh chrooté via ISPConfig.&lt;/p&gt;
 
-&lt;p&gt;###Si l&amp;rsquo;utilisateur chrooté est déjà créé&lt;/p&gt;
+&lt;h1 id=&#34;si-l-utilisateur-chrooté-est-déjà-créé:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Si l&amp;rsquo;utilisateur chrooté est déjà créé&lt;/h1&gt;
 
 &lt;p&gt;Vous pouvez tout de même ajouter ce qu&amp;rsquo;il faut à son environnement chrooté.&lt;/p&gt;
 
 &lt;script src=&#34;https://gist.github.com/7788411.js?file=jk_add_python_ruby.sh&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;###Connectez-vous avec votre utilisateur chrooté&lt;/p&gt;
+&lt;h1 id=&#34;connectez-vous-avec-votre-utilisateur-chrooté:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Connectez-vous avec votre utilisateur chrooté&lt;/h1&gt;
 
-&lt;p&gt;###Créez un dépôt git
-&lt;script src=&#34;https://gist.github.com/7788411.js?file=git_create_repo.sh&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;h1 id=&#34;créez-un-dépôt-git:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Créez un dépôt git&lt;/h1&gt;
 
-&lt;p&gt;###Configurez le hook post-receive
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=git_create_repo.sh&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;configurez-le-hook-post-receive:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Configurez le hook post-receive&lt;/h1&gt;
+
 &lt;script src=&#34;https://gist.github.com/7788411.js?file=git_create_post_receive_hook.sh&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://gist.github.com/7788411.js?file=git_jekyll_post_receive_hook.sh&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=git_jekyll_post_receive_hook.sh&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;Vous pouvez maintenant cloner votre dépôt via ssh, ajoutez-y votre arborescence jekyll et poussez le tout à nouveau sur le dépôt.
 Voilà, votre site web doit se mettre à jour à chaque push sur votre dépôt.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>osx shell</title>
-      <link>http://localhost:1313/lab.kctus.pro/post/osx-shell/</link>
-      <pubDate>Tue, 24 Nov 2015 15:04:49 +0100</pubDate>
-      
-      <guid>http://localhost:1313/lab.kctus.pro/post/osx-shell/</guid>
-      <description>
-
-&lt;p&gt;Quelques commandes shell utiles sur Mac OS X.&lt;/p&gt;
-
-&lt;h3 id=&#34;recherche-dans-la-liste-des-processus-en-cours:774560e08ee0fb56abb535d7b5b1297d&#34;&gt;Recherche dans la liste des processus en cours&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;ps aux|grep &amp;quot;Nom de l&#39;application&amp;quot;
-ps aux|grep nom_du_processus
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;fermer-une-application-desktop-à-partir-du-shell:774560e08ee0fb56abb535d7b5b1297d&#34;&gt;Fermer une application desktop à partir du shell&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;osascript -e &#39;tell application &amp;quot;safari&amp;quot; to quit&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;vider-le-menu-contextuel-ouvrir-avec:774560e08ee0fb56abb535d7b5b1297d&#34;&gt;Vider le menu contextuel &amp;ldquo;Ouvrir avec&amp;hellip;&amp;rdquo;&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;rendre-visible-un-dossier-caché:774560e08ee0fb56abb535d7b5b1297d&#34;&gt;Rendre visible un dossier caché&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;sudo chflags nohidden Library/
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

@@ -6,7 +6,66 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 24 Nov 2015 15:08:31 +0100</lastBuildDate>
     <atom:link href="http://loispuig.github.io/lab.kctus.pro/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>jekyll on ispconfig3</title>
+      <link>http://loispuig.github.io/lab.kctus.pro/post/jekyll-on-ispconfig3/</link>
+      <pubDate>Tue, 24 Nov 2015 15:08:31 +0100</pubDate>
+      
+      <guid>http://loispuig.github.io/lab.kctus.pro/post/jekyll-on-ispconfig3/</guid>
+      <description>
+
+&lt;p&gt;Faire fonctionner &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; dans un environement chrooté, avec ISPConfig + Jailkit sur une Debian Wheezy.&lt;/p&gt;
+
+&lt;h1 id=&#34;installation-de-ruby-via-rvm:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Installation de Ruby via RVM&lt;/h1&gt;
+
+&lt;p&gt;En tant qu&amp;rsquo;utilisateur root :
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=install_rvm.sh&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;installation-de-jekyll:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Installation de Jekyll&lt;/h1&gt;
+
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=install_jekyll.sh&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;installation-de-pygment-pour-la-coloration-syntaxique:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Installation de Pygment (pour la coloration syntaxique)&lt;/h1&gt;
+
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=install_pygment.sh&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;configuration-de-jailkit-pour-les-futurs-utilisateurs-ssh-chrootés:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Configuration de Jailkit pour les futurs utilisateurs ssh chrootés&lt;/h1&gt;
+
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=edit_jk_init.sh&#34;&gt;&lt;/script&gt;
+
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=jk_init.ini&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Puis aller sur ISPConfig en tant qu&amp;rsquo;admin &amp;gt; Système &amp;gt; Configuration Serveur &amp;gt; Cliquez sur votre serveur.
+Dans l&amp;rsquo;onglet &amp;ldquo;Jailkit&amp;rdquo;, ajoutez &amp;ldquo;jekyll&amp;rdquo; à la fin du champ &amp;ldquo;Sections des applications chrootées Jailkit&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;{{ site.url}}/assets/img/posts/ispconfig-jekyll.png&#34; alt=&#34;Add Jekyll to ISPConfig Jailkit config&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez maintenant créer un autilisateur ssh chrooté via ISPConfig.&lt;/p&gt;
+
+&lt;h1 id=&#34;si-l-utilisateur-chrooté-est-déjà-créé:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Si l&amp;rsquo;utilisateur chrooté est déjà créé&lt;/h1&gt;
+
+&lt;p&gt;Vous pouvez tout de même ajouter ce qu&amp;rsquo;il faut à son environnement chrooté.&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=jk_add_python_ruby.sh&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;connectez-vous-avec-votre-utilisateur-chrooté:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Connectez-vous avec votre utilisateur chrooté&lt;/h1&gt;
+
+&lt;h1 id=&#34;créez-un-dépôt-git:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Créez un dépôt git&lt;/h1&gt;
+
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=git_create_repo.sh&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;configurez-le-hook-post-receive:8c86c9a64de66339427d9086f4e2ad32&#34;&gt;Configurez le hook post-receive&lt;/h1&gt;
+
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=git_create_post_receive_hook.sh&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://gist.github.com/7788411.js?file=git_jekyll_post_receive_hook.sh&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Vous pouvez maintenant cloner votre dépôt via ssh, ajoutez-y votre arborescence jekyll et poussez le tout à nouveau sur le dépôt.
+Voilà, votre site web doit se mettre à jour à chaque push sur votre dépôt.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

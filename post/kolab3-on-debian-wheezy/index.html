@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" kolab3 on debian wheezy &middot;  My New Hugo Site" />
+  	<meta property="og:site_name" content="My New Hugo Site" />
+  	<meta property="og:url" content="http://localhost:1313/lab.kctus.pro/post/kolab3-on-debian-wheezy/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2015-11-24T15:10:43&#43;01:00" />
+
+    
+    
+
+  <title>
+     kolab3 on debian wheezy &middot;  My New Hugo Site
+  </title>
+
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://localhost:1313/lab.kctus.pro/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://localhost:1313/lab.kctus.pro/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/lab.kctus.pro/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/lab.kctus.pro/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://localhost:1313/lab.kctus.pro/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.14" />
+
+    <link rel="canonical" href="http://localhost:1313/lab.kctus.pro/post/kolab3-on-debian-wheezy/" />
+
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="http://localhost:1313/lab.kctus.pro/about">about</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://localhost:1313/lab.kctus.pro/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">kolab3 on debian wheezy</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2015-11-24T15:10:43&#43;01:00">
+            Nov 24, 2015
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <p>Dans ma quête pour me défaire de Google Apps &amp; Co. je cherche désespérement une nouvelle plateforme de travail collaboratif, stable et compatible avec les standards WebDav, WebCal et WebCard. Pas si facile à trouver !</p>
+
+<p>Au menu d&rsquo;aujourd&rsquo;hui, l&rsquo;installation de <a href="http://kolab.org">Kolab 3.1</a> sur une Debian wheezy minimal toute neuve.</p>
+
+<p>###Pré-requis (OpenVZ)
+Si vous êtes sur une VM OpenVZ, n&rsquo;oubliez pas d&rsquo;activer les quotas sur celle-ci.
+Puis sur votre hôte virtualiseur :</p>
+
+<p>101 étant l&rsquo;id de votre VM</p>
+
+<script src="https://gist.github.com/dae57e7b29c494363c38.js?file=debian7-kolab3-configure-vz.sh"></script>
+
+<p>###Installation</p>
+
+<p>Lancez la commande suivante en tant que root :</p>
+
+<script src="https://gist.github.com/dae57e7b29c494363c38.js?file=debian7-kolab3-start.Sh"></script>
+
+<p>Qui téléchargera et exécutera le sript suivant :</p>
+
+<script src="https://gist.github.com/dae57e7b29c494363c38.js?file=debian7-kolab3-setup.sh"></script>
+
+<p>###Sources
+* <a href="http://blupgnup.com/installation-groupware-kolab/">Blupgnup&rsquo;s Tavern : Installation du Groupware Kolab</a>
+* <a href="http://docs.kolab.org/">Official Kolab doc</a></p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://localhost:1313/lab.kctus.pro/"></a></h4>
+  
+  <p>Read <a href="http://localhost:1313/lab.kctus.pro/">more posts</a> by this author.</p>
+  
+  <div class="author-meta">
+    
+    
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=kolab3%20on%20debian%20wheezy&amp;url=http%3a%2f%2flocalhost%3a1313%2flab.kctus.pro%2fpost%2fkolab3-on-debian-wheezy%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2flab.kctus.pro%2fpost%2fkolab3-on-debian-wheezy%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2flab.kctus.pro%2fpost%2fkolab3-on-debian-wheezy%2f&amp;description=kolab3%20on%20debian%20wheezy"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2flab.kctus.pro%2fpost%2fkolab3-on-debian-wheezy%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">My New Hugo Site</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://localhost:1313/lab.kctus.pro/js/jquery.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/lab.kctus.pro/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://localhost:1313/lab.kctus.pro/js/index.js"></script>
+    
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
+
