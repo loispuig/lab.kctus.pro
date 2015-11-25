@@ -1,0 +1,48 @@
+[submodule "hyde"]
+	path = themes/hyde
+	url = https://github.com/spf13/hyde.git
+[submodule "lanyon"]
+	path = themes/lanyon
+	url = https://github.com/tummychow/lanyon-hugo.git
+[submodule "hyde-x"]
+	path = themes/hyde-x
+	url = https://github.com/zyro/hyde-x.git
+[submodule "purehugo"]
+	path = themes/purehugo
+	url = https://github.com/dplesca/purehugo.git
+[submodule "hugo-uno"]
+	path = themes/hugo-uno
+	url = https://github.com/SenjinDarashiva/hugo-uno.git
+[submodule "hugoscroll"]
+	path = themes/hugoscroll
+	url = https://github.com/SenjinDarashiva/hugoscroll.git
+[submodule "hugo-theme-casper"]
+	path = themes/casper
+	url = https://github.com/vjeantet/hugo-theme-casper.git
+[submodule "angels-ladder"]
+	path = themes/angels-ladder
+	url = https://github.com/tanksuzuki/angels-ladder.git
+[submodule "crisp"]
+	path = themes/crisp
+	url = https://github.com/Zenithar/hugo-theme-crisp
+[submodule "creative"]
+	path = themes/creative
+	url = https://github.com/digitalcraftsman/hugo-creative-theme.git
+[submodule "persona"]
+	path = themes/persona
+	url = https://github.com/pcdummy/hugo-theme-persona.git
+[submodule "agency"]
+	path = themes/agency
+	url = https://github.com/digitalcraftsman/hugo-agency-theme.git
+[submodule "air"]
+	path = themes/air
+	url = https://github.com/syui/hugo-theme-air.git
+[submodule "hugo-h5bp"]
+	path = themes/hugo-h5bp
+	url = https://github.com/garvincasimir/hugo-h5bp-simple.git
+[submodule "detox"]
+	path = themes/detox
+	url = https://github.com/allnightgrocery/hugo-theme-blueberry-detox.git
+[submodule "bootstrap"]
+	path = themes/bootstrap
+	url = https://github.com/mmrath/hugo-bootstrap.git

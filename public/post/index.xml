@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/lab.kctus.pro/posts/</link>
+    <link>http://localhost:1313/lab.kctus.pro/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Nov 2015 15:10:43 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/lab.kctus.pro/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/lab.kctus.pro/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>kolab3 on debian wheezy</title>
-      <link>http://localhost:1313/lab.kctus.pro/posts/kolab3-on-debian-wheezy/</link>
+      <link>http://localhost:1313/lab.kctus.pro/post/kolab3-on-debian-wheezy/</link>
       <pubDate>Tue, 24 Nov 2015 15:10:43 +0100</pubDate>
       
-      <guid>http://localhost:1313/lab.kctus.pro/posts/kolab3-on-debian-wheezy/</guid>
+      <guid>http://localhost:1313/lab.kctus.pro/post/kolab3-on-debian-wheezy/</guid>
       <description>&lt;p&gt;Dans ma quête pour me défaire de Google Apps &amp;amp; Co. je cherche désespérement une nouvelle plateforme de travail collaboratif, stable et compatible avec les standards WebDav, WebCal et WebCard. Pas si facile à trouver !&lt;/p&gt;
 
 &lt;p&gt;Au menu d&amp;rsquo;aujourd&amp;rsquo;hui, l&amp;rsquo;installation de &lt;a href=&#34;http://kolab.org&#34;&gt;Kolab 3.1&lt;/a&gt; sur une Debian wheezy minimal toute neuve.&lt;/p&gt;
@@ -45,10 +45,10 @@ Puis sur votre hôte virtualiseur :&lt;/p&gt;
     
     <item>
       <title>jekyll on ispconfig3</title>
-      <link>http://localhost:1313/lab.kctus.pro/posts/jekyll-on-ispconfig3/</link>
+      <link>http://localhost:1313/lab.kctus.pro/post/jekyll-on-ispconfig3/</link>
       <pubDate>Tue, 24 Nov 2015 15:08:31 +0100</pubDate>
       
-      <guid>http://localhost:1313/lab.kctus.pro/posts/jekyll-on-ispconfig3/</guid>
+      <guid>http://localhost:1313/lab.kctus.pro/post/jekyll-on-ispconfig3/</guid>
       <description>&lt;p&gt;Faire fonctionner &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; dans un environement chrooté, avec ISPConfig + Jailkit sur une Debian Wheezy.&lt;/p&gt;
 
 &lt;p&gt;###Installation de Ruby via RVM
@@ -95,10 +95,10 @@ Voilà, votre site web doit se mettre à jour à chaque push sur votre dépôt.&
     
     <item>
       <title>osx shell</title>
-      <link>http://localhost:1313/lab.kctus.pro/posts/osx-shell/</link>
+      <link>http://localhost:1313/lab.kctus.pro/post/osx-shell/</link>
       <pubDate>Tue, 24 Nov 2015 15:04:49 +0100</pubDate>
       
-      <guid>http://localhost:1313/lab.kctus.pro/posts/osx-shell/</guid>
+      <guid>http://localhost:1313/lab.kctus.pro/post/osx-shell/</guid>
       <description>
 
 &lt;p&gt;Quelques commandes shell utiles sur Mac OS X.&lt;/p&gt;
