@@ -7,7 +7,7 @@
 
   	<meta property="og:title" content=" kolab3 on debian wheezy &middot;  My New Hugo Site" />
   	<meta property="og:site_name" content="My New Hugo Site" />
-  	<meta property="og:url" content="http://localhost:1313/post/kolab3-on-debian-wheezy/" />
+  	<meta property="og:url" content="http://lab.kctus.pro/post/kolab3-on-debian-wheezy/" />
 
     
   	<meta property="og:type" content="article" />
@@ -26,23 +26,23 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico">
-	  <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="http://lab.kctus.pro/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://lab.kctus.pro/images/apple-touch-icon.png" />
 
-    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/screen.css" />
-    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="http://lab.kctus.pro/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://lab.kctus.pro/css/nav.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
 
 
     
       
-          <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+          <link href="http://lab.kctus.pro/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
       
       
     
     <meta name="generator" content="Hugo 0.14" />
 
-    <link rel="canonical" href="http://localhost:1313/post/kolab3-on-debian-wheezy/" />
+    <link rel="canonical" href="http://lab.kctus.pro/post/kolab3-on-debian-wheezy/" />
 
     
 
@@ -61,13 +61,13 @@
         
             
             <li class="nav-opened" role="presentation">
-            	<a href="http://localhost:1313/about">about</a>
+            	<a href="http://lab.kctus.pro/about">about</a>
             </li>
         
     </ul>
     
     
-    <a class="subscribe-button icon-feed" href="http://localhost:1313/index.xml">Subscribe</a>
+    <a class="subscribe-button icon-feed" href="http://lab.kctus.pro/index.xml">Subscribe</a>
     
 </div>
 <span class="nav-cover"></span>
@@ -113,19 +113,22 @@
     </header>
 
     <section class="post-content">
-      <p>Dans ma quête pour me défaire de Google Apps &amp; Co. je cherche désespérement une nouvelle plateforme de travail collaboratif, stable et compatible avec les standards WebDav, WebCal et WebCard. Pas si facile à trouver !</p>
+      
+
+<p>Dans ma quête pour me défaire de Google Apps &amp; Co. je cherche désespérement une nouvelle plateforme de travail collaboratif, stable et compatible avec les standards WebDav, WebCal et WebCard. Pas si facile à trouver !</p>
 
 <p>Au menu d&rsquo;aujourd&rsquo;hui, l&rsquo;installation de <a href="http://kolab.org">Kolab 3.1</a> sur une Debian wheezy minimal toute neuve.</p>
 
-<p>###Pré-requis (OpenVZ)
-Si vous êtes sur une VM OpenVZ, n&rsquo;oubliez pas d&rsquo;activer les quotas sur celle-ci.
+<h3 id="pré-requis-openvz:51b57447f3da49b862f5d9a8111fb7db">Pré-requis (OpenVZ)</h3>
+
+<p>Si vous êtes sur une VM OpenVZ, n&rsquo;oubliez pas d&rsquo;activer les quotas sur celle-ci.
 Puis sur votre hôte virtualiseur :</p>
 
 <p>101 étant l&rsquo;id de votre VM</p>
 
 <script src="https://gist.github.com/dae57e7b29c494363c38.js?file=debian7-kolab3-configure-vz.sh"></script>
 
-<p>###Installation</p>
+<h3 id="installation:51b57447f3da49b862f5d9a8111fb7db">Installation</h3>
 
 <p>Lancez la commande suivante en tant que root :</p>
 
@@ -135,9 +138,12 @@ Puis sur votre hôte virtualiseur :</p>
 
 <script src="https://gist.github.com/dae57e7b29c494363c38.js?file=debian7-kolab3-setup.sh"></script>
 
-<p>###Sources
-* <a href="http://blupgnup.com/installation-groupware-kolab/">Blupgnup&rsquo;s Tavern : Installation du Groupware Kolab</a>
-* <a href="http://docs.kolab.org/">Official Kolab doc</a></p>
+<h3 id="sources:51b57447f3da49b862f5d9a8111fb7db">Sources</h3>
+
+<ul>
+<li><a href="http://blupgnup.com/installation-groupware-kolab/">Blupgnup&rsquo;s Tavern : Installation du Groupware Kolab</a></li>
+<li><a href="http://docs.kolab.org/">Official Kolab doc</a></li>
+</ul>
 
     </section>
 
@@ -154,9 +160,9 @@ Puis sur votre hôte virtualiseur :</p>
 
 
 <section class="author">
-  <h4><a href="http://localhost:1313/"></a></h4>
+  <h4><a href="http://lab.kctus.pro/"></a></h4>
   
-  <p>Read <a href="http://localhost:1313/">more posts</a> by this author.</p>
+  <p>Read <a href="http://lab.kctus.pro/">more posts</a> by this author.</p>
   
   <div class="author-meta">
     
@@ -169,19 +175,19 @@ Puis sur votre hôte virtualiseur :</p>
     
 <section class="share">
   <h4>Share this post</h4>
-  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=kolab3%20on%20debian%20wheezy&amp;url=http%3a%2f%2flocalhost%3a1313%2fpost%2fkolab3-on-debian-wheezy%2f"
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=kolab3%20on%20debian%20wheezy&amp;url=http%3a%2f%2flab.kctus.pro%2fpost%2fkolab3-on-debian-wheezy%2f"
       onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
       <span class="hidden">Twitter</span>
   </a>
-  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2fkolab3-on-debian-wheezy%2f"
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flab.kctus.pro%2fpost%2fkolab3-on-debian-wheezy%2f"
       onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
       <span class="hidden">Facebook</span>
   </a>
-  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fkolab3-on-debian-wheezy%2f&amp;description=kolab3%20on%20debian%20wheezy"
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2flab.kctus.pro%2fpost%2fkolab3-on-debian-wheezy%2f&amp;description=kolab3%20on%20debian%20wheezy"
       onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
       <span class="hidden">Pinterest</span>
   </a>
-  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fkolab3-on-debian-wheezy%2f"
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2flab.kctus.pro%2fpost%2fkolab3-on-debian-wheezy%2f"
      onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
       <span class="hidden">Google+</span>
   </a>
@@ -205,13 +211,10 @@ Puis sur votre hôte virtualiseur :</p>
         
     </footer>
     </div>
-    <script type="text/javascript" src="http://localhost:1313/js/jquery.js"></script>
-    <script type="text/javascript" src="http://localhost:1313/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="http://localhost:1313/js/index.js"></script>
+    <script type="text/javascript" src="http://lab.kctus.pro/js/jquery.js"></script>
+    <script type="text/javascript" src="http://lab.kctus.pro/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://lab.kctus.pro/js/index.js"></script>
     
-<script data-no-instant>document.write('<script src="http://'
-        + (location.host || 'localhost').split(':')[0]
-		+ ':1313/livereload.js?mindelay=10"></'
-        + 'script>')</script></body>
+</body>
 </html>
 

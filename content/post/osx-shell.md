@@ -1,6 +1,6 @@
 +++
 date = "2015-11-24T15:04:49+01:00"
-draft = true
+draft = false
 title = "osx shell"
 
 +++
